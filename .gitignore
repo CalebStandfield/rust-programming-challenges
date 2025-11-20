@@ -1,0 +1,65 @@
+# -------------------------
+# Rust / Cargo
+# -------------------------
+/target/
+**/target/
+/Cargo.lock
+**/Cargo.lock
+
+# Rust toolchains / backups
+rust-toolchain.toml
+*.rs.bk
+
+# -------------------------
+# IDE / Editor Files
+# -------------------------
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# RustRover / IntelliJ
+.idea/
+*.iml
+
+# MacOS Finder junk
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows junk
+Thumbs.db
+Desktop.ini
+
+# -------------------------
+# Logs / Temp / Output
+# -------------------------
+*.log
+*.tmp
+*.swp
+*.swo
+
+# -------------------------
+# Custom Workspace Rules
+# -------------------------
+
+# Ignore everything in problem crates except source code
+**/Cargo.toml.orig
+**/Cargo.toml.backup
+
+# If you store test input / output samples:
+inputs/
+outputs/
+
+# If you generate compiled binaries manually
+**/*.out
+**/*.exe
+**/*.bin
+
+# -------------------------
+# Node / JS (just in case you add scripts)
+# -------------------------
+node_modules/
+npm-debug.log
+yarn-error.log
+pnpm-lock.yaml

@@ -1,0 +1,18 @@
+# 🦀 rust-algorithms
+
+Note for a while this repo will look pretty bare as I've mostly solved LeetCode problems in other languages and will essentially be starting from scratch but this time in Rust. 
+
+A collection of algorithm and data structure problems solved in Rust, organized by topic (graphs, dynamic programming, two pointers, etc.).  
+Used to practice problem-solving, clean Rust patterns, and performance-minded coding.
+
+## Structure
+
+- Each top-level folder (e.g. `graphs/`, `dynamic_programming/`) groups problems by category.
+- Inside each folder, every problem is its own binary crate in a Cargo workspace.
+- Each crate will be named with a prefix of L, H, or another prefix depending on what site was used, like LeetCode or Hackerrank.
+- Crate names follow the pattern: `L####_problem_name`.
+
+Example:
+
+- `hashmaps/L0001-two_sum`
+- `dynamic_programming/L0070-climbing_stairs`
