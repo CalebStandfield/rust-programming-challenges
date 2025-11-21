@@ -1,6 +1,6 @@
 [workspace]
 members = [
-   "hashing/L0001-two_sum",
+   "hashing/L0001-two_sum", "linked_lists/L0002-add_two_numbers",
 ]
 
 resolver = "2"
