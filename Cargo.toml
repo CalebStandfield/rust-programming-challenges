@@ -1,0 +1,6 @@
+[workspace]
+members = [
+   "hashing/L0001-two_sum",
+]
+
+resolver = "2"
