@@ -1,9 +1,10 @@
 //! Leetcode: 0002-Add Two Numbers
 //! Category: linked lists
 //! Level: Medium
+//! Runtime: 0 ms | Beats 100.00%
 //!
 //! Notes: opt.and_then(|x| n.next) consumes 'opt', runs the closure only if Some and returns the Option from the closure.
-//! Keep 2 pointers to the return list. One for moving and creating, one to return - dummy.next.
+//! Keep 2 pointers to the return list. One for moving and creating, one to return -> dummy.next.
 
 fn main() {
     let l1 = vec_to_list(vec![2, 4, 3]);

@@ -1,6 +1,8 @@
 //! Leetcode: 0001-Two Sum
+//! Link: https://leetcode.com/problems/two-sum/
 //! Category: Hash Table/Two Pointer
 //! Level: Easy
+//! Runtime: 0 ms | Beats 100.00%
 
 use std::collections::HashMap;
 
