@@ -3,7 +3,7 @@
 //!
 //! Category: Sliding Window / Hashing
 //! Level: Medium
-//! Runtime: 1 ms | Beats 63.49%
+//! Runtime: 1 ms | Beats 63.56%
 
 use std::collections::HashMap;
 
@@ -29,11 +29,11 @@ pub fn length_of_longest_substring(s: String) -> i32 {
         return 1;
     }
     let mut map = HashMap::new();
-    map.insert(s.chars().nth(l).unwrap(), l);
-    let chars: Vec<char> = s.chars().collect();
+    let bytes = s.as_bytes();
+    map.insert(bytes[l], l);
     while r < s.len() {
-        let c1 = chars[l];
-        let c2 = chars[r];
+        let c1 = bytes[l];
+        let c2 = bytes[r];
         if !map.contains_key(&c2) {
             map.insert(c2, r);
             r += 1;
