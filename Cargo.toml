@@ -1,5 +1,5 @@
 [workspace]
-members = ["arrays/L0049-group_anagrams",
+members = ["arrays/L0049-group_anagrams", "arrays/L0238-product_of_array_except_self",
    "hashing/L0001-two_sum", "hashing/L0242-valid_anagram", "linked_lists/L0002-add_two_numbers", "sliding_window/L0003-longest_substring_without_repeating_characters", "strings/L0013-roman_to_integer",
 ]
 
