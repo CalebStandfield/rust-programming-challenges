@@ -1,0 +1,6 @@
+[package]
+name = "L0395-longest-substring_with_at_least_k_repeating_characters"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]

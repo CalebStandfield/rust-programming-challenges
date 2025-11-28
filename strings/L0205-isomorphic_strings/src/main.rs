@@ -14,6 +14,8 @@ fn main() {
         is_isomorphic("paper".to_string(), "title".to_string())
     );
     println!("{}", is_isomorphic("badc".to_string(), "baba".to_string()));
+    println!("{}", is_isomorphic(" ".to_string(), "a".to_string()));
+    println!("{}", is_isomorphic("ab de".to_string(), "ed bc".to_string()));
 }
 
 pub fn is_isomorphic(s: String, t: String) -> bool {
