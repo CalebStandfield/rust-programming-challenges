@@ -1,6 +1,6 @@
 //! Leetcode: 0020-Valid Parentheses
 //! Link: https://leetcode.com/problems/valid-parentheses
-//! Category: 
+//! Category: stacks
 //! Level: Easy
 //! Runtime: 0 ms | Beats 100.00%
 
