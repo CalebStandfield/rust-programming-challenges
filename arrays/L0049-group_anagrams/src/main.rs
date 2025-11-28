@@ -1,7 +1,7 @@
 //! Leetcode: 0049-Group Anagrams
 //! Link: https://leetcode.com/problems/group-anagrams
 //! Category: arrays
-//! Level: medium
+//! Level: Medium
 //! Runtime: 0 ms | Beats 100.00%
 
 use std::collections::HashMap;
