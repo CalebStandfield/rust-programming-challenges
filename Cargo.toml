@@ -1,6 +1,15 @@
 [workspace]
-members = ["arrays/L0049-group_anagrams", "arrays/L0238-product_of_array_except_self",
-   "hashing/L0001-two_sum", "hashing/L0242-valid_anagram", "linked_lists/L0002-add_two_numbers", "sliding_window/L0003-longest_substring_without_repeating_characters", "sliding_window/L0395-longest-substring_with_at_least_k_repeating_characters", "stacks/L0020-valid_parentheses", "strings/L0013-roman_to_integer", "strings/L0205-isomorphic_strings",
+members = [
+    "arrays/L0049-group_anagrams",
+    "arrays/L0238-product_of_array_except_self",
+    "hashing/L0001-two_sum",
+    "hashing/L0242-valid_anagram",
+    "linked_lists/L0002-add_two_numbers",
+    "sliding_window/L0003-longest_substring_without_repeating_characters",
+    "sliding_window/L0395-longest-substring_with_at_least_k_repeating_characters",
+    "stacks/L0020-valid_parentheses",
+    "strings/L0013-roman_to_integer",
+    "strings/L0205-isomorphic_strings",
 ]
 
 resolver = "2"
