@@ -1,7 +1,7 @@
 [workspace]
 members = [
     "arrays/L0049-group_anagrams",
-    "arrays/L0238-product_of_array_except_self", "binary_search/L0704-binary_search",
+    "arrays/L0238-product_of_array_except_self", "binary_search/L0033-search_in_rotated_sorted_array", "binary_search/L0704-binary_search",
     "hashing/L0001-two_sum",
     "hashing/L0242-valid_anagram",
     "linked_lists/L0002-add_two_numbers",
