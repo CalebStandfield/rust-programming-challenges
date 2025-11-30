@@ -1,8 +1,17 @@
 //! Leetcode: 0001-Valid Anagram
 //! Link: https://leetcode.com/problems/valid-anagram
+//! 
 //! Category: Hash Table
 //! Level: Easy
 //! Runtime: 0 ms | Beats 100.00%
+//! 
+//! Method of Solving: Check if their sizes are the same.
+//! Since we are using a map instead of an array, this time we use map.entry(c).or_insert(0) += 1.
+//! Remember to dereference the map in this case.
+//! Then for every character in the second string you check if the map has the character.
+//! If yes, then decrement the count, if count is 0, then remove the <k, v> pair.
+//! If 'None' return false. 
+//! At the end return map.is_empty() since if every c in s and t have equal counts, the map should be empty.
 
 use std::collections::HashMap;
 

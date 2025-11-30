@@ -1,8 +1,13 @@
 //! Leetcode: 0238-Product of Array Except Self
 //! Link: https://leetcode.com/problems/product-of-array-except-self
+//! 
 //! Category: arrays
 //! Level: medium
 //! Runtime: 0 ms | Beats 100.00%
+//! 
+//! Method of Solving: Use two arrays to store the pre and suf products.
+//! Then it's as easy as multiplying pre[i] and suf[i] together to ret[i].
+//! Return ret[i].
 
 fn main() {
     let vec = vec![1, 2, 3, 4];

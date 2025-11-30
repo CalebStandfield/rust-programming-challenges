@@ -1,9 +1,13 @@
 //! Leetcode: 0012-Roman to Integer
 //! Link: https://leetcode.com/problems/roman-to-integer
-//!
+//! 
 //! Category: String
 //! Level: Easy
 //! Runtime: 0 ms | Beats 100.00%
+//! 
+//! Method of Solving: There is only one thing to think about, when to subtract. 
+//! That is when the previous value was greater than the current character value. 
+//! In that case we subtract. Otherwise, add to the sum. 
 
 use std::cmp::{Ordering, PartialOrd};
 

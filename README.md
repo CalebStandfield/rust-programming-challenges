@@ -25,7 +25,8 @@ Problem details include:
 - Category of the problem
 - Difficulty of the problem
 - Runtime X ms | Beats XXX.XX%
-- Notes
+- Method of Solving
+- Notes (Optional)
 
 Since memory usage can fluctuate, I have decided to not include it in the problem details.
 

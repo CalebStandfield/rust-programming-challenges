@@ -4,6 +4,13 @@
 //! Category: Sliding Window / Hashing
 //! Level: Medium
 //! Runtime: 1 ms | Beats 63.56%
+//! 
+//! Method of Solving: Make a sliding window.
+//! While r is less than the length of the string, we advance.
+//! If r is a new element not contained in the HashMap, insert, move r, and check longest.
+//! If r is equal to l, then move r.
+//! If r is not a new element, then remove the element at l and move l.
+//! Return longest.
 
 use std::collections::HashMap;
 

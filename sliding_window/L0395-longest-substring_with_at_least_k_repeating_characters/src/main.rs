@@ -1,8 +1,15 @@
 //! Leetcode: 0395-Longest Substring with At Least K Repeating Characters
 //! Link: https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters
+//!
 //! Category: sliding window
 //! Level: Medium
 //! Runtime: 15 ms | Beats 20.00%
+//!
+//! Method of Solving: Use a conquer and divide approach.
+//! The intuition is that there are bad characters. If we find a bad character, we can split the string in half.
+//! We know that on either half there must be at least k repeating characters.
+//! So we have to check both halves again for the frequency of each character. (Is slow).
+//! Then return the max of either left or right.
 //! Note: Not happy at all with this. It's using the divide and conquer approach instead of a sliding window.
 //! I don't understand the sliding window approach, so I am not going to just copy and paste someone else's solution.
 //! Nor do I really want to just study the solution for the sake of knowing the best solution.

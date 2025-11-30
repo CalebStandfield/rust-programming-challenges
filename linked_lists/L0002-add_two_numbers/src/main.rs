@@ -1,8 +1,18 @@
 //! Leetcode: 0002-Add Two Numbers
+//! Link: https://leetcode.com/problems/add-two-numbers/
+//! 
 //! Category: linked lists
 //! Level: Medium
 //! Runtime: 0 ms | Beats 100.00%
-//!
+//! 
+//! Method of Solving: Create a dummy node and move through both lists.
+//! While there is a node in either list, add the values and carry over.
+//! If the sum is > 9, then set carry to 1 and mod 10.
+//! Then move the pointers to the next node.
+//! Lastly, create our next node. 
+//! Start by setting curr.next to a new Boxed ListNode.
+//! Then move curr to the next node.
+//! Finally, set the value of the next node to the sum.
 //! Notes: opt.and_then(|x| n.next) consumes 'opt', runs the closure only if Some and returns the Option from the closure.
 //! Keep 2 pointers to the return list. One for moving and creating, one to return -> dummy.next.
 

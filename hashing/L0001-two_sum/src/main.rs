@@ -1,8 +1,17 @@
 //! Leetcode: 0001-Two Sum
 //! Link: https://leetcode.com/problems/two-sum/
+//! 
 //! Category: Hash Table/Two Pointer
 //! Level: Easy
 //! Runtime: 0 ms | Beats 100.00%
+//! 
+//! Method of Solving: Use a HashMap since a two-pointer approach is O(n^2).
+//! For i and num in nums calculate the difference between target and num.
+//! If 'Some' value exists in map.get(num) do a check.
+//! If i and j are equal, then continue since we can't return the same number.
+//! Otherwise, return a new vec with i and j. 
+//! If 'Some' was 'None' then insert into the map the difference and i.
+//! At the end return the empty vector if no solution is found.
 
 use std::collections::HashMap;
 

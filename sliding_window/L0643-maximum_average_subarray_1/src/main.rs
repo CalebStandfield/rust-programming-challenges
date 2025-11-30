@@ -1,8 +1,14 @@
 //! Leetcode: 0643-Maximum Average Subarray I
 //! Link: https://leetcode.com/problems/maximum-average-subarray-i/
+//! 
 //! Category: sliding window
 //! Level: Easy
 //! Runtime: 0 ms | Beats 100.00%
+//! 
+//! Method of Solving: Create a window of size k and calculate the sum.
+//! Then from k to n increase the sum by nums[i] and degrease by nums[i-k].
+//! Then return max / k 
+//! Don't divide too early since that's just extra work. 
 
 fn main() {
     // println!("{}", find_max_average(vec![1, 12, -5, -6, 50, 3], 4));

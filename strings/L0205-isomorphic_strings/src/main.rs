@@ -1,8 +1,15 @@
 //! Leetcode: 0205-Isomorphic Strings
 //! Link: https://leetcode.com/problems/isomorphic-strings
+//! 
 //! Category: strings / hashmaps
 //! Level: Easy
 //! Runtime: 0 ms | Beats 100.00%
+//! 
+//! Method of Solving: Have two hashmaps, one for the to and one for the from.
+//! If the to hashmap contains the key, then it needs to be equal to the value.
+//! Otherwise, it needs to not be in the from hashmap. Or that would be a double mapping.
+//! 
+//! Notes: use x.zip(y) to make an iterator over the two iterators.
 
 use std::collections::HashMap;
 
