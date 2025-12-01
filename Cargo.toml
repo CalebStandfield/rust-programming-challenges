@@ -1,13 +1,17 @@
 [workspace]
 members = [
     "arrays/L0049-group_anagrams",
-    "arrays/L0238-product_of_array_except_self", "binary_search/L0033-search_in_rotated_sorted_array", "binary_search/L0704-binary_search",
+    "arrays/L0238-product_of_array_except_self",
+    "binary_search/L0033-search_in_rotated_sorted_array",
+    "binary_search/L0704-binary_search",
     "hashing/L0001-two_sum",
     "hashing/L0242-valid_anagram",
-    "linked_lists/L0002-add_two_numbers",
+    "linked_lists/L0002-add_two_numbers", "linked_lists/L0206-reverse_linked_list",
     "sliding_window/L0003-longest_substring_without_repeating_characters",
-    "sliding_window/L0395-longest-substring_with_at_least_k_repeating_characters", "sliding_window/L0643-maximum_average_subarray_1",
-    "stacks/L0020-valid_parentheses", "stacks/L0496-next_greater_element_i",
+    "sliding_window/L0395-longest-substring_with_at_least_k_repeating_characters",
+    "sliding_window/L0643-maximum_average_subarray_1",
+    "stacks/L0020-valid_parentheses",
+    "stacks/L0496-next_greater_element_i", "stacks/L0503-next_greater_element_ii",
     "strings/L0013-roman_to_integer",
     "strings/L0205-isomorphic_strings",
 ]
