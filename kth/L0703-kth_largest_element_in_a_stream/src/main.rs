@@ -5,7 +5,12 @@
 //! Level: easy
 //! Runtime: 0 ms | Beats 100.00%
 //!
-//! Method of Solving: If we only need 
+//! Method of Solving: If we only need the kth largest, we can use a min heap.
+//! First, implement add() so you can call add() in new. 
+//! In add() it's as simple as pushing to the heap and then checking if that exceeds k.
+//! If so, pop the element. Call peak() at the end to return the i32.
+//! Note: A min heap is a BinaryHeap<Reverse<i32>>.
+//! When peaking, remember to call .unwrap().0 where .0 gets the field out of Reverse.
 
 use std::cmp::Reverse;
 use std::collections::BinaryHeap;
