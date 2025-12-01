@@ -12,7 +12,7 @@ members = [
     "sliding_window/L0643-maximum_average_subarray_1",
     "stacks/L0020-valid_parentheses",
     "stacks/L0496-next_greater_element_i", "stacks/L0503-next_greater_element_ii",
-    "strings/L0013-roman_to_integer",
+    "strings/L0013-roman_to_integer", "strings/L0125-valid_palindrome",
     "strings/L0205-isomorphic_strings",
 ]
 
