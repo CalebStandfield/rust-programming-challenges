@@ -6,9 +6,9 @@
 /Cargo.lock
 **/Cargo.lock
 
-# Rust toolchains / backups
-rust-toolchain.toml
+# Rust backups
 *.rs.bk
+rust-toolchain.toml
 
 # -------------------------
 # IDE / Editor Files
@@ -18,18 +18,25 @@ rust-toolchain.toml
 .vscode/
 *.code-workspace
 
-# RustRover / IntelliJ
+# JetBrains / RustRover
 .idea/
 *.iml
 
-# MacOS Finder junk
+# -------------------------
+# OS Junk
+# -------------------------
+
+# macOS
 .DS_Store
 .AppleDouble
 .LSOverride
 
-# Windows junk
+# Windows
 Thumbs.db
 Desktop.ini
+
+# Linux
+*~
 
 # -------------------------
 # Logs / Temp / Output
@@ -38,28 +45,35 @@ Desktop.ini
 *.tmp
 *.swp
 *.swo
+*.bak
 
-# -------------------------
-# Custom Workspace Rules
-# -------------------------
-
-# Ignore everything in problem crates except source code
-**/Cargo.toml.orig
-**/Cargo.toml.backup
-
-# If you store test input / output samples:
-inputs/
-outputs/
-
-# If you generate compiled binaries manually
+# Build artifacts
 **/*.out
 **/*.exe
 **/*.bin
+*.wasm
 
 # -------------------------
-# Node / JS (just in case you add scripts)
+# Node / JS / Frontend
 # -------------------------
-node_modules/
-npm-debug.log
-yarn-error.log
-pnpm-lock.yaml
+pixelify_web/node_modules/
+pixelify_web/dist/
+pixelify_web/.vite/
+pixelify_web/.cache/
+pixelify_web/npm-debug.log
+pixelify_web/yarn-error.log
+
+# Vite starter assets we don't want tracked
+pixelify_web/public/vite.svg
+
+# -------------------------
+# Docker
+# -------------------------
+docker-data/
+.dockerignore
+
+# -------------------------
+# Project-specific dirs
+# -------------------------
+inputs/
+outputs/

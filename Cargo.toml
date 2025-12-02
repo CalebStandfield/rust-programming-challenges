@@ -1,6 +1,6 @@
 [workspace]
 members = [
-    "arrays/L0049-group_anagrams",
+    "arrays/L0049-group_anagrams", "arrays/L0056-merge_intervals",
     "arrays/L0238-product_of_array_except_self",
     "binary_search/L0033-search_in_rotated_sorted_array",
     "binary_search/L0704-binary_search", "design/L0146-lru_cache",

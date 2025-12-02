@@ -2,7 +2,7 @@
 //! Link: https://leetcode.com/problems/valid-palindrome
 //!
 //! Category: string
-//! Level: easy
+//! Level: Easy
 //! Runtime: 0 ms | Beats 100.00%
 //!
 //! Method of Solving: Left and right pointers.
