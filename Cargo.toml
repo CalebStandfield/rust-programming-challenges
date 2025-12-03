@@ -1,7 +1,7 @@
 [workspace]
 members = [
     "arrays/L0049-group_anagrams", "arrays/L0056-merge_intervals",
-    "arrays/L0238-product_of_array_except_self", "backtracking/L0046-permutations",
+    "arrays/L0238-product_of_array_except_self", "backtracking/L0046-permutations", "backtracking/L0257-binary_tree_paths",
     "binary_search/L0033-search_in_rotated_sorted_array",
     "binary_search/L0704-binary_search", "design/L0146-lru_cache",
     "hashing/L0001-two_sum",
