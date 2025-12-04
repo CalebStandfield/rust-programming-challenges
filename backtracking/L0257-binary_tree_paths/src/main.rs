@@ -40,8 +40,9 @@ pub fn binary_tree_paths(root: Option<Rc<RefCell<TreeNode>>>) -> Vec<String> {
         if let Some(node) = node {
             let node = node.borrow();
             if node.left.is_none() && node.right.is_none() {
-                let mut string = node.val.to_string();
-                string.push_str("->");
+                let mut full = curr.clone();
+                full.push(node.val.to_string());
+                paths.push(full.join("->"));
                 return;
             }
             curr.push(node.val.to_string());
