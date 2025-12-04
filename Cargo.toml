@@ -3,7 +3,7 @@ members = [
     "arrays/L0049-group_anagrams", "arrays/L0056-merge_intervals",
     "arrays/L0238-product_of_array_except_self", "backtracking/L0046-permutations", "backtracking/L0078-subsets", "backtracking/L0257-binary_tree_paths",
     "binary_search/L0033-search_in_rotated_sorted_array",
-    "binary_search/L0704-binary_search", "design/L0146-lru_cache",
+    "binary_search/L0704-binary_search", "design/L0146-lru_cache", "dynamic_programming/L0509-fibonacci_number",
     "hashing/L0001-two_sum",
     "hashing/L0242-valid_anagram", "kth/L0215-kth_largest_element_in_an_array", "kth/L0703-kth_largest_element_in_a_stream",
     "linked_lists/L0002-add_two_numbers", "linked_lists/L0206-reverse_linked_list",
