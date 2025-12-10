@@ -5,7 +5,7 @@ members = [
     "binary_search/L0033-search_in_rotated_sorted_array",
     "binary_search/L0704-binary_search", "design/L0146-lru_cache", "dynamic_programming/L0070-climbing_stairs", "dynamic_programming/L0509-fibonacci_number", "dynamic_programming/L1137-n-th_tribonacci_number", "graphs/L0112-path_sum",
     "hashing/L0001-two_sum",
-    "hashing/L0242-valid_anagram", "kth/L0215-kth_largest_element_in_an_array", "kth/L0703-kth_largest_element_in_a_stream",
+    "hashing/L0242-valid_anagram", "hashing/L0387-first_unique_character_in_a_string", "kth/L0215-kth_largest_element_in_an_array", "kth/L0703-kth_largest_element_in_a_stream",
     "linked_lists/L0002-add_two_numbers", "linked_lists/L0206-reverse_linked_list",
     "sliding_window/L0003-longest_substring_without_repeating_characters",
     "sliding_window/L0395-longest-substring_with_at_least_k_repeating_characters",
